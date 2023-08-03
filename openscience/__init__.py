@@ -1,0 +1,1 @@
+from openscience._paper import Paper
