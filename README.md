@@ -26,7 +26,7 @@ Knowledge generating agents & algorithms.
 
 ## Deliverables (Output):
 1. Open Source Github Repo with tools to scrape/parse sources of scientific data.
-2. Repositories (S3?) of data which are legally easy to host.
+2. Repositories of data which are legally easy to host.
 3. It should allow contributing developers to easily add research functionality, especially ETL functionality.
 We’ll enable researchers to upload embeddings and search methods for new sources of data.
 
@@ -90,7 +90,7 @@ Science,
 Springer,
 ScienceDirect,
 Academic Torrents,
-Other datasets,
+Other datasets.
 
 ## Existing Relevant Tools and Companies
 Semantic Scholar,
