@@ -4,10 +4,10 @@ Create an open-source datastore of research data built to back research powered 
 ## Tiers:
 1. Cleaned Dataset (dataset; ETL tool) with papers standardized in JSON.
 LLM Training.
-2. Research exploration & retrieval (tool)
+2. Research exploration & retrieval (tool):
 Search for relevant research.
-3. AI Augmented Research Process (product)
-Research Paper Writing (http://arxivgen.com)
+3. AI Augmented Research Process (product):
+Research Paper Writing (http://arxivgen.com),
 From prompt.
 From data.
 Automated research reviews & criticism
@@ -45,9 +45,9 @@ We will publish a new, code friendly JSON representation of all papers in OpenSc
 While pursuing a unified JSON representation, we will make a modular, reusable toolkit which we will open source for broader use.
 
 ### Toolkit Components:
-1. Scraping scripts
+1. Scraping scripts:
 This pulls raw data into a mount or folder.
-2. Parsing scripts
+2. Parsing scripts:
 Likely dataset conditional parsers that turn raw data into passages and additional metadata.
 Missing metadata will be handled in the database.
 Varying segmentation strategies / rules are allowed.
@@ -55,20 +55,20 @@ Ex., token count with overlap, sentence by sentence with overlap, passage by pas
 Latex -> json.gz
 Write a schema with important paper metadata in the json files.
 3. Database: Space for similar metadata across data sources.
-Full Text
-Passages
+Full Text.
+Passages.
 Typed based on their segmentation strategy.
-Authors
-Title
-Citations (Of other papers)
-Human readable
-Unique ID within this database
-Citation String
-Passage Embeddings (Including various types: all-mpnet-base, ada-002, MiniLM)
-Paper Tags (ex., Arxiv categories like Information Retrieval or Biomolecules)
-Source
+Authors.
+Title.
+Citations (Of other papers).
+Human readable.
+Unique ID within this database.
+Citation String.
+Passage Embeddings (Including various types: all-mpnet-base, ada-002, MiniLM).
+Paper Tags (ex., Arxiv categories like Information Retrieval or Biomolecules).
+Source.
 4. Database API
-Retrieval functions for paper data
+Retrieval functions for paper data.
 5. Embedding Service
 Likely Fargate / Lambda auto-scaling service.
 6. Retrieval Service
@@ -77,39 +77,39 @@ Approximate Nearest Neighbors Index w/ API
 
 ### First Stage Data Sources
 We will collect:
-Arxiv
-Bioarxiv
+Arxiv,
+Bioarxiv.
 
 ### Second Stage Data Sources
 In our second stage, we would like to collect:
-chemarxiv
-Pubmed
-JStor
-Nature
-Science
-Springer
-ScienceDirect
-Academic Torrents
-Other datasets
+chemarxiv,
+Pubmed,
+JStor,
+Nature,
+Science,
+Springer,
+ScienceDirect,
+Academic Torrents,
+Other datasets,
 
 ## Existing Relevant Tools and Companies
-Semantic Scholar
-Elicit
-OpenSyllabus
-sCite
-Kaggle
-Galactica
-Metaphor
-Alexandria Embeddings
+Semantic Scholar,
+Elicit,
+OpenSyllabus,
+sCite,
+Kaggle,
+Galactica,
+Metaphor,
+Alexandria Embeddings,
 Connected Papers
 ### Examples of knowledge generation:
 Deep Learning Guided Discovery of an antibiotic targeting Acinetobacter baumannii
 Discovering New Interpretable Conservation Laws as Sparse Invariants
 
 ### Resources:
-Alexandria Embeddings (https://huggingface.co/datasets/macrocosm/arxiv_abstracts)
-Arxiv sanity lite (https://arxiv-sanity-lite.com/)
-ArxivGen (http://arxivgen.com/)
+Alexandria Embeddings (https://huggingface.co/datasets/macrocosm/arxiv_abstracts), 
+Arxiv sanity lite (https://arxiv-sanity-lite.com/), 
+ArxivGen (http://arxivgen.com/), 
 TXYZ (https://txyz.ai/)
 
 ## Legal Disclaimers
